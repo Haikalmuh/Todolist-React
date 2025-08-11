@@ -40,7 +40,7 @@ export default function TodoItem({ todo, toggleTodo, deleteTodo, editTodo }) {
         </button>
         <button
           onClick={() => deleteTodo(todo.id)}
-          className="bg-red-50 text-red-500 hover:bg-red-200 hover:text-red-700 hover:text-red-700 py-2 px-2 rounded-md"
+          className="bg-red-50 text-red-500 hover:bg-red-200 hover:text-red-700 py-2 px-2 rounded-md"
         >
           Hapus
         </button>
